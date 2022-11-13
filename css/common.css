@@ -37,7 +37,7 @@ FONT SIZE SYSTEM (px)
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
-.grid--3cols {
+.grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
 }
 .grid--4-cols {
@@ -82,6 +82,21 @@ body {
   background-color: #e67e22;
   color: #fff;
 }
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #333;
+}
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+}
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #fdf2e9;
+  /*trick to add border inside */
+  box-shadow: inset 0 0 0 3px #fff;
+}
 .heading-primary {
   font-size: 5.2rem;
   line-height: 1.05;
@@ -112,4 +127,35 @@ body {
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
   margin-top: 9.6rem;
+}
+/*******************************************************/
+.meals-section {
+  padding: 9.6rem 0;
+}
+.container {
+}
+.subheading {
+}
+.heading-secondary {
+}
+
+.meals {
+}
+.list {
+}
+.meals img {
+  width: 100%;
+}
+.meal-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 3.2rem;
+}
+.meal-attributes {
+  list-style: none;
+  display: flex;
+}
+.meal-attribute {
+  font-size: 1.8rem;
 }
