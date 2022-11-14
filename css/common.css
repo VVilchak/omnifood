@@ -56,6 +56,9 @@ FONT SIZE SYSTEM (px)
 .center-text {
   text-align: center;
 }
+.grid:not(last-child) {
+  margin-bottom: 9.6rem;
+}
 /******************************************************/
 * {
   margin: 0;
