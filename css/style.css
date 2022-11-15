@@ -407,7 +407,7 @@
 .container {
 }
 .section-cta {
-  padding: 9.6rem 0;
+  padding: 9.6rem 0 12.8rem;
 }
 .cta-text-box {
   color: #45260a;
@@ -430,7 +430,6 @@
   background-image: linear-gradient(to right bottom, #d98d4c, #cf711f);
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
   border-radius: 11px;
-  height: 50rem;
   overflow: hidden;
 }
 .cta-img-box {
@@ -448,4 +447,31 @@
   grid-template-columns: 1fr 1fr;
   column-gap: 3.2rem;
   row-gap: 2.4rem;
+}
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  font-size: 1.8rem;
+  padding: 1.2rem;
+  font-family: inherit;
+  border: none;
+  color: inherit;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
