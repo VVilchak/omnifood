@@ -40,11 +40,26 @@
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
 }
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+.icon-mobile-nav[name="close-outline"] {
+display: none;
+}
 /**************************************************************************/
 .section-hero {
   background-color: #fdf2e9;
   padding: 4.8rem 0 9.6rem 0;
 }
+
 .hero {
   max-width: 130rem;
   margin: 0 auto;
@@ -534,10 +549,9 @@
   font-style: normal;
   font-size: 1.6rem;
   line-height: 1.6;
-
 }
 .contacts-adress {
-  margin-bottom: 2.4rem
+  margin-bottom: 2.4rem;
 }
 .grid--footer {
   grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
