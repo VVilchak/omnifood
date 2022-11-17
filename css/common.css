@@ -44,7 +44,7 @@ FONT SIZE SYSTEM (px)
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
-.grid--5-cols  {
+.grid--5-cols {
   grid-template-columns: repeat(5, 1fr);
 }
 .margin-right-sm {
@@ -70,7 +70,8 @@ FONT SIZE SYSTEM (px)
 }
 html {
   font-size: 62.5%;
-   overflow-x: hidden;
+  overflow-x: hidden;
+  /*scroll-behavior: smooth; */ /*doesn't wirk on safari*/
 }
 body {
   font-family: "Rubik", sans-serif;
