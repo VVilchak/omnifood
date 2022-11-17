@@ -11,6 +11,7 @@ btnNav.addEventListener('click', function() {
   headerEl.classList.toggle('nav-open')
 })
 
+// animated scrolling //
 
 
 // Fixing flexbox gap property missing in some Safari versions
