@@ -46,6 +46,7 @@
   background: none;
   cursor: pointer;
   display: none;
+  z-index: 999;
 }
 .icon-mobile-nav {
   height: 4.8rem;
